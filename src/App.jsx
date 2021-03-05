@@ -1,10 +1,10 @@
-import react from "react";
+import React from "react";
 import "./styles.css";
 
 export const App = () => {
   return (
     <>
-      <div>
+      <div className="input-area">
         <input placeholder="Todo input area" />
         <button>Add</button>
       </div>
